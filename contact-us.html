@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/log.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="icon" href="img/log88.png" type="image/gif" sizes="16x16">
+  <!-- <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet"></head> -->
+
+<body>
+
+  <!-- *********head-1-start*********** -->
+  <div class="head-1">
+    <div class="container">
+      <div class="row" style="padding: 10px;">
+        <div class="col-sm-3" style="padding: 5px;padding-left: 20px;">
+          <i class="fas fa-phone"></i> Call Us : +8801731357071
+        </div>
+        <div class="col-sm-6" style="padding: 5px;padding-left: 20px;">
+          <i class="fas fa-envelope-open-text"></i> Mail : Ahmed987658.yuo@gmail.com
+        </div>
+        <div class="col-sm-3" style="padding: 5px;padding-left: 20px;">
+          <i class="fas fa-sign-in-alt" style="float: right;"> <a style="color: white; text-decoration: none;" href="log-registration.html">Login</a></i> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- *********head-1-start-end********** -->
+
+  <!-- **********dropdown menubar**********  -->
+  <nav class="navbar navbar-expand-xl bg-light navbar-light ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container ">
+      <ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <img src="img/log88.png" alt="" style="width: 100px;"> </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="apply.html">Apply</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">GCC slip</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Medical</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Check status</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link " data-toggle="dropdown" href="#">Rules</a>
+          <ul class="dropdown-menu">
+            <li><a href="apply.html">Apply for GHC accreditation</a></li>
+            <li><a href="medical-status.html">Print GCC slip</a></li>
+            <li><a href="#">Medical centers</a></li>
+            <li><a href="#">Check canditaed status</a></li>
+            <li><a href="#">Guidlines</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Guidelines</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- **********dropdown menubar End*********  -->
+
+
+
+  <!-- **********Contact-us********* -->
+  <section class="Material-contact-section section-padding section-dark">
+    <div class="container"> <br> <br>
+      <h2 class="text-center">Contact Us</h2> <br>
+      <div class="row">
+        <!-- Section Titile -->
+        <div class="col-sm-6"> <br>
+          <div id="googleMap" style="width:100%;height:400px;"></div> <br>
+          <div class="find-widget">
+            Company: <a href="https://hostriver.ro">HostRiver</a>
+          </div>
+          <div class="find-widget">
+            Address: <a href="#">4435 Berkshire Circle Knoxville</a>
+          </div>
+          <div class="find-widget">
+            Phone: <a href="#">+ 879-890-9767</a>
+          </div>
+
+          <div class="find-widget">
+            Website: <a href="https://uny.ro">www.uny.ro</a>
+          </div>
+          <div class="find-widget">
+            Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+          </div>
+        </div>
+
+        <!-- contact form -->
+        <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+          <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+            <!-- Name -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" name="name" required
+                data-error="Please enter your name">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- email -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="email">Email</label>
+              <input class="form-control" id="email" type="email" name="email" required
+                data-error="Please enter your Email">
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <!-- phone -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="email">Phone Number</label>
+              <input class="form-control" id="email" type="email" name="email" required
+                data-error="Please enter your Email">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Subject -->
+            <div class="form-group label-floating">
+              <label class="control-label">Subject</label>
+              <input class="form-control" id="msg_subject" type="text" name="subject" required
+                data-error="Please enter your message subject">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Message -->
+            <div class="form-group label-floating">
+              <label for="message" class="control-label">Message</label>
+              <textarea class="form-control" rows="3" id="message" name="message" required
+                data-error="Write your message"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Form Submit -->
+            <div class="form-submit mt-5">
+              <button class="btn btn-common" type="submit" id="form-submit"
+                style="background-color: rgb(219, 82, 58); border: 3px;color: white;"><i
+                  class="material-icons mdi mdi-message-outline"></i> Send Message</button> <br> <br>
+              <div id="msgSubmit" class="h3 text-center hidden"></div>
+              <div class="clearfix"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> <br> <br>
+  </section>
+  <!-- **********Contact-us End********* -->
+
+
+  <!-- ********************footer******************** -->
+  <footer class="footer">
+    <div class="container bottom_border">
+      <div class="row">
+        <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+
+          <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s</p>
+          <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+          <p><i class="fa fa-phone"></i> +91-9999878398 </p>
+          <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+        </div>
+
+
+        <div class=" col-sm-4 col-md  col-6 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+          <ul class="footer_ul_amrc">
+            <li><a href="#">Image Rectoucing</a></li>
+            <li><a href="#">Clipping Path</a></li>
+            <li><a href="#">Hollow Man Montage</a></li>
+            <li><a href="#">Ebay & Amazon</a></li>
+            <li><a href="#">Hair Masking/Clipping</a></li>
+            <li><a href="#">Image Cropping</a></li>
+          </ul>
+        </div>
+
+
+        <div class=" col-sm-4 col-md  col-6 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+          <ul class="footer_ul_amrc">
+            <li><a href="#">Remove Background</a></li>
+            <li><a href="#">Shadows & Mirror Reflection</a></li>
+            <li><a href="#">Logo Design</a></li>
+            <li><a href="#">Vectorization</a></li>
+            <li><a href="#">Hair Masking/Clipping</a></li>
+            <li><a href="#">Image Cropping</a></li>
+          </ul>
+        </div>
+
+
+        <div class=" col-sm-4 col-md  col-12 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+          <ul class="footer_ul2_amrc">
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+              <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.rohan.com/</a></p>
+            </li>
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+              <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.rohan.com/</a></p>
+            </li>
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+              <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.rohan.com/</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <ul class="foote_bottom_ul_amrc">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="text-center">Copyright @2020 | Designed With by <a href="#">Your Company Name</a></p>
+
+      <ul class="social_footer_ul">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+  <!-- ********************footer End******************** -->
+
+
+  <!-- Script File -->
+  <script src="js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/fontawesome.js"></script>
+
+  <script>
+    function myMap() {
+      var mapProp = {
+        center: new google.maps.LatLng(51.508742, -0.120850),
+        zoom: 5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+  </script>
+
+</body>
+
+</html>

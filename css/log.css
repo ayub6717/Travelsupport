@@ -1,0 +1,27 @@
+.m {
+    background-color: #1B6568;
+    color: white;
+    padding: 40px;
+    height: 400px;
+}
+
+.m2 {
+    padding: 40px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #1B6568;
+    border-bottom: 25px solid transparent;
+    margin-top: 280px;
+    margin-left: -20px;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 770px) {
+    .triangle-right {
+        display: none;
+    }
+}
